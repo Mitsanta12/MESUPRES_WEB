@@ -1,0 +1,160 @@
+    body{
+        margin: 0 ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(204, 112, 240, 0.164);
+    }
+    .FOND{
+        background: url(Images/TAJ.jpg);
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+    }
+    .FOND .fond1 h2{ 
+        color: rgb(20, 20, 20);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;    
+        font-size: 80px;
+        padding-top: 20%;
+        }
+    
+    /*Petit album*/
+    #Endroits{
+		padding: 60px 0 30px 0;
+	  }
+	  #Endroits .villes {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 30px;
+	  }
+	  #Endroits .villes .details {
+		background: rgba(6, 12, 34, 0.76);
+		position: absolute;
+		left: 0;
+		bottom: -40px;
+		right: 0;
+		text-align: center;
+		padding-top: 10px;
+		transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+	  }
+	  #Endroits .villes .details h3 {
+		color: #fff;
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	  }
+	  #Endroits .villes .details p {
+		color: #fff;
+		font-size: 15px;
+		margin-bottom: 10px;
+		font-style: italic;
+	  }
+	  #Endroits .villes .details .social {
+		height: 30px !important;
+	  }
+	  #Endroits .villes .details .social i {
+		line-height: 0;
+		margin: 0 2px;
+	  }
+	  #Endroits .villes .details a {
+		color: #fff;
+	  }
+	  #Endroits .villes .details a:hover {
+		color: #f82249;
+	  }
+	  #Endroits .villes:hover .details {
+		bottom: 0;
+	  }
+	  
+	  #Endroits-details {
+		padding: 60px 0;
+	  }
+	  #Endroits-details .details h2 {
+		color: #112363;
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	  }
+	  #Endroits-details .details .social {
+		margin-bottom: 15px;
+	  }
+	  #Endroits-details .details .social a {
+		
+		color: #112363;
+		line-height: 1;
+		display: inline-block;
+		text-align: center;
+		border-radius: 50%;
+		width: 36px;
+		height: 36px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  #Endroits-details .details .social a:hover {
+		background: #f82249;
+		color: #fff;
+	  }
+	  #Endroits-details .details .social a i {
+		font-size: 16px;
+		line-height: 0;
+	  }
+	  #Endroits-details .details p {
+		color: #112363;
+		font-size: 15px;
+		margin-bottom: 10px;
+	  }
+       /*fin de l'album*/
+
+      /*footer*/
+      #footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: #2f2f2f;
+        color: white;
+       
+      }
+      #footer .centered{
+      text-align: center;
+      margin-bottom: 15px;
+      }
+      #footer .row{
+      justify-content:center;
+      }
+      
+      #footer h5 {
+        margin-top: 30px;
+        letter-spacing: 1px;
+      }
+      
+      #footer i {
+        font-size: 45px;
+        margin: 15px;
+      }
+      
+      #footer a {
+        color: #b9b9b9;
+      }
+      
+      #footer a:hover {
+        color: #a8caf1;
+      } 
+
+@media screen and (max-width: 500px) {
+ 
+    .FOND .fond1 h2{ 
+       
+      
+        color: aliceblue;
+         padding: 20px;
+         padding-left: 17vw;
+        
+         font-size: 40px;
+         padding-top: 60%;
+     }
+    
+	 #footer i {
+        font-size: 25px;
+        margin: 20px;
+      }
+}
