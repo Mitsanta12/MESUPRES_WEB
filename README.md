@@ -6,7 +6,4 @@ car je ne savais pas encore très bien utilier bootstrap et cela peut ce voir tr
 
 A part cela, dans ce site on parle d'une visite en Inde, il nous emmène à travers différents lieu magnifique que l'on pourait visiter en Inde. En plus de cela, il nous font connaitre les différents coutumes et tradition Indienne. Et pour finir il nous propose de voyager avec eux pour une visite guider en Inde avec un prix imbattable. 
 
-<img src="![Capture d’écran (128)](https://user-images.githubusercontent.com/103644537/166872222-fe6b488e-33df-4a4a-8791-8f790b47b2c8.png)" alt="" class="h-80 w-100">
-
-Vous pouriez voir mon projet dans le lien suivant : 
-  <a href="Villes.html">Cliquez ici</a>
+<img src="![Capture d’écran (128)](https://user-images.githubusercontent.com/103644537/166872222-fe6b488e-33df-4a4a-8791-8f790b47b2c8.png)" >
